@@ -3,7 +3,7 @@ export const projetsList = [
         "id": "0",
         "name": "Booki",
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-        "image": "",
+        "image": "./images/booki.webp",
         "github_link": "https://github.com/Julia13git/Projet3",
         "github_page_link": "https://julia13git.github.io/Projet3/",
         "skills": [
@@ -17,7 +17,7 @@ export const projetsList = [
         "id": "1",
         "name": "OhMyFood",
         "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
-        "image": "",
+        "image": "./images/ohMyFood.webp",
         "github_link": "https://github.com/Julia13git/Projet4",
         "github_page_link": "https://julia13git.github.io/Projet4/",
         "skills": [
@@ -31,7 +31,7 @@ export const projetsList = [
         "id": "2",
         "name": "PrintIt",
         "description": "Premiers pas sur le langage JavaScript",
-        "image": "",
+        "image": "./images/printIt.webp",
         "github_link": "https://github.com/Julia13git/Project_5",
         "github_page_link": "https://julia13git.github.io/Project_5/",
         "skills": [

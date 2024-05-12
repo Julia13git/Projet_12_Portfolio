@@ -1,0 +1,45 @@
+main{
+    width: inherit;
+    width: -webkit-fill-available; /* WebKit-based browsers will ignore this. */
+    display: flex;
+    padding: 20px;
+    background-color: #E9F1FA;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    main {
+        padding-inline: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    main {
+        padding-inline: 100px;
+    }
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px 20px; */
+    gap: 25px;
+    max-width: 1440px;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+    .projects-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}  
+
+.title{
+    color: #053269;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+    .title {
+        font-size: 30px;
+        /* padding-bottom: 50px; */
+    }
+}  
