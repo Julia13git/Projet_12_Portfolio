@@ -1,0 +1,92 @@
+main{
+    width: inherit;
+    width: -webkit-fill-available; /* WebKit-based browsers will ignore this. */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 20px;
+    background-color: #E9F1FA;
+}
+@media (min-width: 768px) {
+    main {
+        padding-inline: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    main {
+        padding-inline: 100px;
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media (min-width: 768px) {
+    .about {
+        padding-block: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    .about {
+        padding-block: 60px;
+    }
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+} 
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    .about-content {
+        gap: 100px;
+    }
+}
+
+.about-title{
+    color: #053269;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+    .about-title {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+.about-image{
+    object-fit: cover;
+    width: 80%;
+    height: 300px;
+}
+@media (min-width: 1024px) {
+    .about-image {
+        height: 400px;
+        width: 400px;
+    }
+}
+.about-text{
+display: flex;
+flex-direction: column;
+gap: 25px;
+justify-content: center;
+}
+
+h2, p {
+    font-family: Montserrat, sans-serif;
+}
