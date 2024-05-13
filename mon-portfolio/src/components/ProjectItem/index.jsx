@@ -1,15 +1,22 @@
+import { Link } from "react-router-dom";
 import "./projectItem.css";
 
-function ProjectItem({ title, image, description, github_lien }) {
+function ProjectItem({ project }) {
+  // {title, image, description}
   return (
-    <div className="project">
-      <img src={image} alt={title} className="project-image"></img>
-      <div className="project-content">
-        <h2 className="project-title">{title}</h2>
-        <p className="project-description">{description}</p>
-        {/* <p className="project-link">{github_lien}</p> */}
+    <Link to={`/project/${project.id}`} className="project-link">
+      <div className="project">
+        <img
+          src={project.image}
+          alt={project.name}
+          className="project-image"
+        ></img>
+        <div className="project-content">
+          <h2 className="project-title">{project.name}</h2>
+          <p className="project-description">{project.description}</p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

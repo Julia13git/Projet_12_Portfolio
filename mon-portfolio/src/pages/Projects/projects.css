@@ -42,4 +42,21 @@ main{
         font-size: 30px;
         /* padding-bottom: 50px; */
     }
-}  
+} 
+.project-link{
+    all: unset;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%; 
+    color: #053269;  
+    }
+    @media (min-width: 768px) {
+        .project-link {
+            width: 45%;
+        }
+    } 
+    @media (min-width: 1024px) {
+        .project-link {
+            width: 30%;
+        } 
+    }  
