@@ -3,7 +3,7 @@ export const projetsList = [
         "id": "0",
         "name": "Booki",
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-        "image": "./images/booki.webp",
+        "image": "./images/booki1.webp",
         "github_link": "https://github.com/Julia13git/Projet3",
         "github_page_link": "https://julia13git.github.io/Projet3/",
         "skills": [
@@ -43,7 +43,7 @@ export const projetsList = [
         "id": "3",
         "name": "Sophie Bluel- Architecte d'interieur",
         "description": "Créez une page web dynamique avec JavaScript",
-        "image": "",
+        "image": "./images/sophieBluel.webp",
         "github_link": "https://github.com/Julia13git/Projet6",
         "github_page_link": "https://julia13git.github.io/Projet6/",
         "skills": [
@@ -57,7 +57,7 @@ export const projetsList = [
         "id": "4",
         "name": "Qwenta",
         "description": "Planifiez le développement du site de votre client",
-        "image": "",
+        "image": "./images/qwenta.webp",
         "github_link": "",
         "github_page_link": "",
         "skills": [
@@ -73,7 +73,7 @@ export const projetsList = [
         "id": "5",
         "name": "Kasa",
         "description": "Créez une application web de location immobilière avec React",
-        "image": "",
+        "image": "./images/kasa.webp",
         "github_link": "https://github.com/Julia13git/ProjetKasa",
         "github_page_link": "",
         "skills": [
@@ -89,7 +89,7 @@ export const projetsList = [
         "id": "6",
         "name": "Nina Carducci",
         "description": "Optimisez le référencement d'un site de photographe",
-        "image": "",
+        "image": "./images/ninaCarduci.webp",
         "github_link": "https://github.com/Julia13git/Projet_9.git",
         "github_page_link": "https://julia13git.github.io/Projet_9/",
         "skills": [
@@ -101,7 +101,7 @@ export const projetsList = [
         "id": "7",
         "name": "724events",
         "description": "Débuggez le site d'une agence d'événementiel",
-        "image": "",
+        "image": "./images/724events.webp",
         "github_link": "https://github.com/Julia13git/Projet-10",
         "github_page_link": "",
         "skills": [
@@ -114,7 +114,7 @@ export const projetsList = [
         "id": "8",
         "name": "ArgentBank",
         "description": "Implémentez le front-end d'une application bancaire avec React",
-        "image": "",
+        "image": "./images/argentBank.webp",
         "github_link": "https://github.com/Julia13git/ArgentBank-website",
         "github_page_link": "",
         "skills": [

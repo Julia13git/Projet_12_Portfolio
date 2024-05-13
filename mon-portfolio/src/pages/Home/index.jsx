@@ -12,7 +12,7 @@ function Home() {
           <h1 className="about-title">Bonjour et Bienvenue!</h1>
           <div className="about-content">
             <img
-              src="./images/moi1-440.webp"
+              src="./images/myphoto.webp"
               alt=""
               className="about-image"
             ></img>
