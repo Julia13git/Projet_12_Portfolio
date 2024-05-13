@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -19,27 +20,30 @@ function Home() {
             <div className="about-text">
               <h2>A propos de moi</h2>
               <p>
-                Je m'appelle Yuliia Hots.
+                Je m'appelle Yuliia HOTS.
                 <br />
-                Je suis étudiante de la formation Integrateur Web
-                d'OpenClassrooms.
+                J'ai suivi la formation
+                <Link href="https://openclassrooms.com/fr/paths/900-integrateur-web#overview">
+                  Integrateur Web d'OpenClassrooms.
+                </Link>
               </p>
               <p>
                 Passionée par la langue anglaise et l'informatique depuis
                 <br />
-                l'école, j'ai fait mon choix vers l'anglais. Je n'ai jamais
+                l'école, j'ai fait initialement mon choix vers l'anglais en
+                début de carrière
                 <br />
-                pensé de retourner vers ma deuxième préference, mais la vie nous
+                avec un master d'anglais (Université de Kharkiv).
                 <br />
-                donne toujours les solutions. Il y a 9 mois comme j'ai commencé
+                Je suis arrivée en France en Mars 2022 et j'ai souhaité me
+                réorienter vers un nouvelle activité. J'ai choisi l'informatique
+                et j'ai eu la chance de pouvoir suivre une formation de 9 mois
+                avec OpenclassRooms me permettant d'apprendre à developper des
+                applications Web et React.
                 <br />
-                ma formation avec OpenClassrooms, je savais rien et maintenant
-                ..... <br />
-                je sais developper les projets avec HTML, CSS, JavaScript,
-                <br />
-                React, React-Router, Redux en optimisant la performance du code
-                <br />
-                et du referencement SEO aux projets.
+                Durant cette formation, j'ai étudié différents sujets : le HTML,
+                le CSS, le JavaScript, le React & Redux, les API REST JSON, les
+                techniques d'optimisation de site et du referencement SEO.
               </p>
             </div>
           </div>
