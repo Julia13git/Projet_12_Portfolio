@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./projectItem.css";
 
 function ProjectItem({ project }) {
-  // {title, image, description}
   return (
     <Link to={`/project/${project.id}`} className="project-link">
       <div className="project">

@@ -5,16 +5,6 @@
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 
 }
-/* @media (min-width: 768px) {
-    .project {
-        width: 45%;
-    }
-} 
-@media (min-width: 1024px) {
-    .project {
-        width: 30%;
-    }
-}    */
 .project-image{
     width: 100%;
     height: 230px;
@@ -42,6 +32,9 @@
     width: 100%; 
     color: #053269;  
     }
+.project-link:hover{
+    color: blue;
+}
     @media (min-width: 768px) {
         .project-link {
             width: 45%;

@@ -5,8 +5,10 @@ function ProjectPage({ project }) {
         <div className="">
           <div className="">
             <div className="">
+              <img src={project.image} alt={project.name} className="" />
               <h1 className="">{project.name}</h1>
               <p className="">{project.description}</p>
+              <p className="">{project.github_link}</p>
             </div>
           </div>
         </div>
