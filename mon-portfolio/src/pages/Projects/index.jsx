@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ProjectItem from "../../components/ProjectItem";
 import { projectList } from "../../datas/projectList";
 import "./projects.css";
-// import { Link } from "react-router-dom";
+import Project from "../../components/Project";
 
 function Projects() {
   return (
@@ -14,13 +13,7 @@ function Projects() {
         <h1 className="title">Projets</h1>
         <div className="projects-list">
           {projectList.map((project) => (
-            // <Link
-            //   to={`/project/${project.id}`}
-            //   className="project-link"
-            //   key={project.name}
-            // >
-            <ProjectItem project={project} key={project.id} />
-            // </Link>
+            <Project project={project} key={project.id} mode="card" />
           ))}
         </div>
       </main>

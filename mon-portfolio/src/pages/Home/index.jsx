@@ -29,21 +29,23 @@ function Home() {
               </p>
               <p>
                 Passionée par la langue anglaise et l'informatique depuis
-                <br />
-                l'école, j'ai fait initialement mon choix vers l'anglais en
-                début de carrière
-                <br />
-                avec un master d'anglais (Université de Kharkiv).
-                <br />
-                Je suis arrivée en France en Mars 2022 et j'ai souhaité me
+                l'école,
+                <br /> j'ai fait initialement mon choix vers l'anglais en début
+                de carrière <br /> avec un master d'anglais (Université de
+                Kharkiv). <br /> Je suis arrivée en France en Mars 2022 et j'ai
+                souhaité me <br />
                 réorienter vers un nouvelle activité. J'ai choisi l'informatique
-                et j'ai eu la chance de pouvoir suivre une formation de 9 mois
-                avec OpenclassRooms me permettant d'apprendre à developper des
-                applications Web et React.
                 <br />
-                Durant cette formation, j'ai étudié différents sujets : le HTML,
-                le CSS, le JavaScript, le React & Redux, les API REST JSON, les
-                techniques d'optimisation de site et du referencement SEO.
+                et j'ai eu la chance de pouvoir suivre une formation de 9 mois
+                <br />
+                avec OpenclassRooms me permettant d'apprendre à developper
+                <br />
+                des applications Web et React. Durant cette formation, j'ai
+                étudié <br /> différents sujets : le HTML, le CSS, le
+                JavaScript, le React & Redux,
+                <br /> les API REST JSON, les techniques d'optimisation de site
+                <br />
+                et du referencement SEO.
               </p>
             </div>
           </div>
