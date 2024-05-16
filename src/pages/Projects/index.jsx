@@ -10,7 +10,7 @@ function Projects() {
     <>
       <Header />
       <main>
-        <h1 className="title">Projets</h1>
+        <h1 className="projects-title">Projets</h1>
         <div className="projects-list">
           {projectList.map((project) => (
             <Project project={project} key={project.id} mode="card" />

@@ -41,7 +41,7 @@ export const projectList = [
     },
     {
         "id": "3",
-        "name": "Sophie Bluel- Architecte d'interieur",
+        "name": "Sophie Bluel",
         "description": "Créez une page web dynamique avec JavaScript",
         "image": "/images/sophieBluel.webp",
         "github_link": "https://github.com/Julia13git/Projet6",

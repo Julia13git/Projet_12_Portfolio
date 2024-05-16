@@ -14,7 +14,9 @@ function ProjectPage() {
   return (
     <>
       <Header />
-      <Project key={project.id} project={project} mode="full" />
+      <main>
+        <Project key={project.id} project={project} mode="full" />
+      </main>
       <Footer />
     </>
   );

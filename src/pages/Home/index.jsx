@@ -2,54 +2,35 @@ import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./home.css";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
       <Header />
-      <main>
-        <section className="about">
-          <h1 className="about-title">Bonjour et Bienvenue!</h1>
-          <div className="about-content">
-            <img
-              src="./images/myphoto.webp"
-              alt=""
-              className="about-image"
-            ></img>
-            <div className="about-text">
-              <h2>A propos de moi</h2>
-              <p>
-                Je m'appelle Yuliia HOTS.
-                <br />
-                J'ai suivi la formation
-                <Link href="https://openclassrooms.com/fr/paths/900-integrateur-web#overview">
-                  Integrateur Web d'OpenClassrooms.
-                </Link>
-              </p>
-              <p>
-                Passionée par la langue anglaise et l'informatique depuis
-                l'école,
-                <br /> j'ai fait initialement mon choix vers l'anglais en début
-                de carrière <br /> avec un master d'anglais (Université de
-                Kharkiv). <br /> Je suis arrivée en France en Mars 2022 et j'ai
-                souhaité me <br />
-                réorienter vers un nouvelle activité. J'ai choisi l'informatique
-                <br />
-                et j'ai eu la chance de pouvoir suivre une formation de 9 mois
-                <br />
-                avec OpenclassRooms me permettant d'apprendre à developper
-                <br />
-                des applications Web et React. Durant cette formation, j'ai
-                étudié <br /> différents sujets : le HTML, le CSS, le
-                JavaScript, le React & Redux,
-                <br /> les API REST JSON, les techniques d'optimisation de site
-                <br />
-                et du referencement SEO.
-              </p>
-            </div>
-          </div>
-        </section>
+      <main className="main">
+        <p id="head1" className="header">
+          Bonjour et Bienvenue!
+        </p>
+        <p id="head2" className="header">
+          Je suis Yuliia Hots
+        </p>
+        <p id="head3" className="header">
+          développeuse front-end.
+        </p>
+        <p id="head4" class="header"></p>
+        <p id="head5" class="header">
+          {/* Welcome to BA designs */}
+        </p>
+        {/* <button>Continue</button> */}
+        <div class="light x1"></div>
+        <div class="light x2"></div>
+        <div class="light x3"></div>
+        <div class="light x4"></div>
+        <div class="light x5"></div>
+        <div class="light x6"></div>
+        <div class="light x7"></div>
+        <div class="light x8"></div>
+        <div class="light x9"></div>
       </main>
       <Footer />
     </>

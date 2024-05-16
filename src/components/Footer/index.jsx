@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
+
 function Footer() {
   return (
     <footer>
-      {/* <img src="/images/logo.webp" alt="logo" /> */}
       <div className="footer-content">
-        <span>© 2024 YH. All rights reserved</span>
+        <img src="/images/icons8-github.svg" alt="" />
+        <Link to="https://github.com/Julia13git" className="footer-link">
+          https://github.com/Julia13git
+        </Link>
       </div>
     </footer>
   );

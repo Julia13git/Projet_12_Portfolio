@@ -12,19 +12,38 @@
     object-fit: cover;
 }
 .project-content{
-    height: 65px;
+     height: 65px;
     padding: 10px;
-    border-top-style: outset;
+    /* border-top-style: outset; */
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .project-title{
     color: #053269;
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-family: Vujahday Script;
+    font-size: 25px;
     font-weight: bold;
+     /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  */
 }
+
+.project-description{
+    color: #053269;
+    font-family: Roboto,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+    /* width: 95%; */
+}
+/* @media (min-width: 699px) {
+    .project-description {
+        width: 95%;
+    }
+}  */
 
 .project-link{
     text-decoration: none;
