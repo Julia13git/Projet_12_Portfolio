@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <>
-      <Header />
+      <Header isAProposActive={true} />
       <main>
         <section className="about">
           <h1 className="about-title">A propos de moi</h1>

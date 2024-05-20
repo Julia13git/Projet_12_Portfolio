@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
 import "./header.css";
 
-function Header() {
+function Header({ isAccueilActive, isAProposActive, isProjectsActive }) {
   return (
     <header>
-      {/* <img src="/images/logo.webp" alt="logo" className="logo" /> */}
       <span className="logo">YH</span>
       <nav>
-        <Link to="/">Accueil</Link>
-        <Link to="/about">A propos</Link>
-        <Link to="/projects">Projets</Link>
+        <Link to="/" className={isAccueilActive ? "active" : null}>
+          Accueil
+        </Link>
+        <Link to="/about" className={isAProposActive ? "active" : null}>
+          A propos
+        </Link>
+        <Link to="/projects" className={isProjectsActive ? "active" : null}>
+          Projets
+        </Link>
       </nav>
     </header>
   );

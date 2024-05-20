@@ -19,8 +19,8 @@
 .full-project-title{
     color: #053269;
     font-family: Vujahday Script;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 500;
     align-self: center;
 }
 @media (min-width: 699px) {

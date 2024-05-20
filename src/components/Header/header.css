@@ -37,7 +37,7 @@ nav{
 }
 
 header nav a {
-    all: unset;
+     all: unset;
     color: #053269;
     cursor: pointer;
     font-family: Vujahday Script;
@@ -61,4 +61,8 @@ header nav a {
     text-transform: capitalize;
     }
 }
+
+header .active{
+    text-decoration: underline;
+}    
 

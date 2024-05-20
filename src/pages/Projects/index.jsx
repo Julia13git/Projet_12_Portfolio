@@ -8,7 +8,7 @@ import Project from "../../components/Project";
 function Projects() {
   return (
     <>
-      <Header />
+      <Header isProjectsActive={true} />
       <main>
         <h1 className="projects-title">Projets</h1>
         <div className="projects-list">

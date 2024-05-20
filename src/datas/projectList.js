@@ -3,7 +3,7 @@ export const projectList = [
         "id": "0",
         "name": "Booki",
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-        "image": "/images/booki1.webp",
+        "image": "/images/booki.webp",
         "github_link": "https://github.com/Julia13git/Projet3",
         "github_page_link": "https://julia13git.github.io/Projet3/",
         "skills": [
@@ -31,7 +31,7 @@ export const projectList = [
         "id": "2",
         "name": "PrintIt",
         "description": "Premiers pas sur le langage JavaScript",
-        "image": "/images/printIt.webp",
+        "image": "/images/printit.webp",
         "github_link": "https://github.com/Julia13git/Project_5",
         "github_page_link": "https://julia13git.github.io/Project_5/",
         "skills": [
