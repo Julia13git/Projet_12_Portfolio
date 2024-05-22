@@ -6,7 +6,7 @@ function ProjectItem({ project }) {
     <Link to={`/project/${project.id}`} className="project-link">
       <div className="project">
         <img
-          src={project.image}
+          src={project.cover}
           alt={project.name}
           className="project-image"
         ></img>

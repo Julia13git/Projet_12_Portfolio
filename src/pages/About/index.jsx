@@ -9,7 +9,7 @@ function About() {
     <>
       <Header isAProposActive={true} />
       <main>
-        <section className="about">
+        <div className="about">
           <h1 className="about-title">A propos de moi</h1>
           <div className="about-content">
             <img
@@ -48,7 +48,7 @@ function About() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
       </main>
       <Footer />
     </>

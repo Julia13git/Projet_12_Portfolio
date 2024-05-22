@@ -5,16 +5,16 @@
     width: 100%;
     align-items: center;
 }
-@media (min-width: 699px) {
+/* @media (min-width: 699px) {
     .full-project {
         width: 80%;
     }
 } 
 @media (min-width: 1024px) {
     .full-project {
-        width: 60%;
+        width: 67%;
     } 
-}   
+}    */
 
 .full-project-title{
     color: #053269;
@@ -64,17 +64,17 @@
 .full-project-description{
     color: #053269;
     font-family: Roboto,sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
 }
 @media (min-width: 699px) {
     .full-project-description{
-        font-size: 20px;
+        font-size: 17px;
     }
 } 
 @media (min-width: 1024px) {
     .full-project-description{
-        font-size: 24px;
+        font-size: 18px;
     } 
 }   
 
@@ -90,6 +90,11 @@
 .github-link{
     color: #053269;
     font-family: Roboto,sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
 }
+@media (min-width: 699px) {
+    .github-link{
+        font-size: 17px;
+    }
+} 

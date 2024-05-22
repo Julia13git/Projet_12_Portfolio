@@ -3,9 +3,15 @@ export const projectList = [
         "id": "0",
         "name": "Booki",
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-        "image": "/images/booki.webp",
+        "cover": "/images/booki.webp",
         "github_link": "https://github.com/Julia13git/Projet3",
         "github_page_link": "https://julia13git.github.io/Projet3/",
+        "pictures": [
+            "/images/booki.webp",  
+            "/images/booki-1.jpg",
+            "/images/booki-2.jpg",
+            "/images/booki-3.jpg"
+        ],
         "skills": [
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Implémenter une interface responsive avec HTML et CSS",
@@ -17,9 +23,14 @@ export const projectList = [
         "id": "1",
         "name": "OhMyFood",
         "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
-        "image": "/images/ohMyFood.webp",
+        "cover": "/images/ohMyFood.webp",
         "github_link": "https://github.com/Julia13git/Projet4",
         "github_page_link": "https://julia13git.github.io/Projet4/",
+        "pictures": [
+            "/images/ohmyfood-1.webp",
+            "/images/ohMyFood.webp", 
+            "/images/ohmyfood-2.webp"            
+        ],
         "skills": [
             "Versionner son projet avec Git et Github",
             "Intégrer une maquette en mobile-first",
@@ -31,9 +42,15 @@ export const projectList = [
         "id": "2",
         "name": "PrintIt",
         "description": "Premiers pas sur le langage JavaScript",
-        "image": "/images/printit.webp",
+        "cover": "/images/printitnew.webp",
         "github_link": "https://github.com/Julia13git/Project_5",
         "github_page_link": "https://julia13git.github.io/Project_5/",
+        "pictures": [
+            "/images/printit-1.webp",
+            "/images/printit-2.webp",
+            "/images/printit-3.webp",
+            "/images/printit-4.webp",
+        ],
         "skills": [
             "Programmer en utilisant les fondamentaux de JavaScript"
         ]
@@ -43,7 +60,7 @@ export const projectList = [
         "id": "3",
         "name": "Sophie Bluel",
         "description": "Créez une page web dynamique avec JavaScript",
-        "image": "/images/sophieBluel.webp",
+        "cover": "/images/sophieBluel.webp",
         "github_link": "https://github.com/Julia13git/Projet6",
         "github_page_link": "https://julia13git.github.io/Projet6/",
         "skills": [
@@ -57,7 +74,7 @@ export const projectList = [
         "id": "4",
         "name": "Qwenta",
         "description": "Planifiez le développement du site de votre client",
-        "image": "/images/qwenta.webp",
+        "cover": "/images/qwenta.webp",
         "github_link": "",
         "github_page_link": "",
         "skills": [
@@ -73,7 +90,7 @@ export const projectList = [
         "id": "5",
         "name": "Kasa",
         "description": "Créez une application web de location immobilière avec React",
-        "image": "/images/kasa.webp",
+        "cover": "/images/kasa.webp",
         "github_link": "https://github.com/Julia13git/ProjetKasa",
         "github_page_link": "",
         "skills": [
@@ -89,7 +106,7 @@ export const projectList = [
         "id": "6",
         "name": "Nina Carducci",
         "description": "Optimisez le référencement d'un site de photographe",
-        "image": "/images/ninaCarduci.webp",
+        "cover": "/images/ninaCarduci.webp",
         "github_link": "https://github.com/Julia13git/Projet_9.git",
         "github_page_link": "https://julia13git.github.io/Projet_9/",
         "skills": [
@@ -101,7 +118,7 @@ export const projectList = [
         "id": "7",
         "name": "724events",
         "description": "Débuggez le site d'une agence d'événementiel",
-        "image": "/images/724events.webp",
+        "cover": "/images/724events.webp",
         "github_link": "https://github.com/Julia13git/Projet-10",
         "github_page_link": "",
         "skills": [
@@ -114,7 +131,7 @@ export const projectList = [
         "id": "8",
         "name": "ArgentBank",
         "description": "Implémentez le front-end d'une application bancaire avec React",
-        "image": "/images/argentBank.webp",
+        "cover": "/images/argentBank.webp",
         "github_link": "https://github.com/Julia13git/ArgentBank-website",
         "github_page_link": "",
         "skills": [

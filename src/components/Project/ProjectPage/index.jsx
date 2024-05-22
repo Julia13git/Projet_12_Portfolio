@@ -3,17 +3,19 @@ import Collapse from "../../Collapse";
 import "./projectPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
+import Carousel from "../../Carousel";
 
 function ProjectPage({ project }) {
   return (
     <>
       <div key={project.id} className="full-project">
         <h1 className="full-project-title">{project.name}</h1>
-        <img
-          src={project.image}
+        {/* <img
+          src={project.cover}
           alt={project.name}
           className="full-project-image"
-        />
+        /> */}
+        <Carousel id={project.id} />
         <div className="icon-description">
           <FontAwesomeIcon icon={faCircleInfo} className="icon-info" />
           <p className="full-project-description">{project.description}</p>

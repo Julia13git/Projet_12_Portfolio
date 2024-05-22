@@ -1,12 +1,12 @@
 .one-collapse {
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     max-width: 1023px;
   }
   @media (min-width: 699px) {
     .one-collapse {
-      width: 90%;
+      width: 70%;
     }
   }
   @media (min-width: 1024px) {
@@ -19,25 +19,38 @@
     width: 100%;
     background-color: #053269;
     border: none;
-    height: 30px;
+    height: 40px;
     color: #FFF;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: Vujahday Script;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 19px;
   }
   @media (min-width: 768px) {
     .collapse-btn {
       max-width: 1023px;
       height: 50px;
-      font-size: 40px;
+      font-size: 24px;
       line-height: 34px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .collapse-btn {
+      font-size: 30px;
+    }
+  }
+  .collapse-btn img{
+    height: 24px;
+  }
+  @media (min-width: 768px) {
+    .collapse-btn img {
+      height: 30px;
     }
   }
   
@@ -52,7 +65,12 @@
   }
 
   .collapse-content ul {
-    padding-left: 10px;
+    padding-left: 15px;
+  }
+  @media (min-width: 768px) {
+    .collapse-content ul {
+      padding-left: 25px;
+    }
   }
   .collapse-content p {
     font-family: Roboto, sans-serif;
