@@ -63,6 +63,13 @@ export const projectList = [
         "cover": "/images/sophieBluel.webp",
         "github_link": "https://github.com/Julia13git/Projet6",
         "github_page_link": "https://julia13git.github.io/Projet6/",
+        "pictures": [
+            "/images/sophieBluel-1.webp",
+            "/images/sophieBluel-2.webp",
+            "/images/sophieBluel-3.webp",
+            "/images/sophieBluel-4.webp",
+            "/images/sophieBluel-5.webp",
+        ],
         "skills": [
             "Gérer les événements utilisateurs avec JavaScript",
             "Manipuler les éléments du DOM avec JavaScript",
@@ -70,22 +77,25 @@ export const projectList = [
         ]
 
     },
-    {
-        "id": "4",
-        "name": "Qwenta",
-        "description": "Planifiez le développement du site de votre client",
-        "cover": "/images/qwenta.webp",
-        "github_link": "",
-        "github_page_link": "",
-        "skills": [
-            "Suivre le déroulement du projet grâce à un outil de gestion de projet",
-            "Présenter la solution technique",
-            "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
-            "Découper une fonctionnalités en tâches pour préparer le développement",
-            "Mettre en place une méthode de veille technologique"
-        ]
+    // {
+    //     "id": "4",
+    //     "name": "Qwenta",
+    //     "description": "Planifiez le développement du site de votre client",
+    //     "cover": "/images/qwenta.webp",
+    //     "github_link": "",
+    //     "github_page_link": "",
+    //     "pictures": [
 
-    },
+    //     ],
+    //     "skills": [
+    //         "Suivre le déroulement du projet grâce à un outil de gestion de projet",
+    //         "Présenter la solution technique",
+    //         "Rédiger les spécifications techniques d'un projet web à partir de besoins fonctionnels",
+    //         "Découper une fonctionnalités en tâches pour préparer le développement",
+    //         "Mettre en place une méthode de veille technologique"
+    //     ]
+
+    // },
     {
         "id": "5",
         "name": "Kasa",
