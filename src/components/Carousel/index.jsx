@@ -30,7 +30,7 @@ function Carousel({ id }) {
 
           return (
             <section className="carousel" key={project.id}>
-              <img src={project.pictures[currentImage]} alt="" />
+              <img src={project.pictures[currentImage]} alt={project.title} />
               <p>
                 {currentImage + 1}/{pictures.length}
               </p>

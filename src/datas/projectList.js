@@ -103,6 +103,12 @@ export const projectList = [
         "cover": "/images/kasa.webp",
         "github_link": "https://github.com/Julia13git/ProjetKasa",
         "github_page_link": "",
+        "pictures":[
+            "/images/kasa-1.webp",
+            "/images/kasa-2.webp",
+            "/images/kasa-3.webp",
+            "/images/kasa-4.webp",
+        ],
         "skills": [
             "Développer une interface web avec Sass",
             "Initialiser une application avec Create React App",
@@ -119,6 +125,13 @@ export const projectList = [
         "cover": "/images/ninaCarduci.webp",
         "github_link": "https://github.com/Julia13git/Projet_9.git",
         "github_page_link": "https://julia13git.github.io/Projet_9/",
+        "pictures":[
+            "/images/nina-1.webp",
+            "/images/nina-2.webp",
+            "/images/nina-3.webp",
+            "/images/nina-4.webp",
+            "/images/nina-5.webp",
+        ],
         "skills": [
             "Optimiser la performance d'un site web"
         ]
@@ -131,6 +144,12 @@ export const projectList = [
         "cover": "/images/724events.webp",
         "github_link": "https://github.com/Julia13git/Projet-10",
         "github_page_link": "",
+        "pictures":[
+            "/images/events-1.webp",
+            "/images/events-2.webp",
+            "/images/events-3.webp",
+            "/images/events-4.webp",
+        ],
         "skills": [
             "Débugger un site web grâce aux Chrome DevTools",
             "Rédiger un cahier de recette pour tester un site"
@@ -144,6 +163,12 @@ export const projectList = [
         "cover": "/images/argentBank.webp",
         "github_link": "https://github.com/Julia13git/ArgentBank-website",
         "github_page_link": "",
+        "pictures":[
+            "/images/bank-1.webp",
+            "/images/bank-2.webp",
+            "/images/bank-3.webp",
+        ],
+
         "skills": [
             "Configurer des routes API pour la communication client / serveur",
             "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front",
