@@ -1,5 +1,5 @@
 .main {
-    padding-block: 200px;
+    padding-block: 250px;
     margin: 0;
     height: auto; 
     font-weight: 100;
@@ -11,10 +11,8 @@
      overflow-y: hidden; 
     /* -webkit-animation: fadeIn 1 1s ease-out;
     -moz-animation: fadeIn 1 1s ease-out;
-    -o-animation: fadeIn 1 1s ease-out; */
-    
+    -o-animation: fadeIn 1 1s ease-out; */  
 }
-
 
 .light {
     position: absolute;

@@ -31,19 +31,21 @@ function Carousel({ id }) {
           return (
             <section className="carousel" key={project.id}>
               <img src={project.pictures[currentImage]} alt={project.title} />
-              <p>
-                {currentImage + 1}/{pictures.length}
-              </p>
-              <FontAwesomeIcon
-                icon={faChevronLeft}
-                className="fa-solid fa-chevron-left"
-                onClick={prevSlide}
-              />
-              <FontAwesomeIcon
-                icon={faChevronRight}
-                className="fa-solid fa-chevron-right"
-                onClick={nextSlide}
-              />
+              <div className="slider-arrows">
+                <FontAwesomeIcon
+                  icon={faChevronLeft}
+                  className="fa-solid fa-chevron-left"
+                  onClick={prevSlide}
+                />
+                <p>
+                  {currentImage + 1}/{pictures.length}
+                </p>
+                <FontAwesomeIcon
+                  icon={faChevronRight}
+                  className="fa-solid fa-chevron-right"
+                  onClick={nextSlide}
+                />
+              </div>
             </section>
           );
         })}

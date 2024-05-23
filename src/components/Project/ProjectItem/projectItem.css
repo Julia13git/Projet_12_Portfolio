@@ -4,8 +4,8 @@
     border-radius: 20px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
     opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .project:hover{
     opacity: 0.6;
@@ -17,9 +17,8 @@
     object-fit: cover;
 }
 .project-content{
-     height: 65px;
+    height: 65px;
     padding: 10px;
-    /* border-top-style: outset; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -29,9 +28,6 @@
     font-family: Vujahday Script;
     font-size: 25px;
     font-weight: bold;
-     /* overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;  */
 }
 
 .project-description{
@@ -42,30 +38,21 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;  
-    /* width: 95%; */
 }
-/* @media (min-width: 699px) {
-    .project-description {
-        width: 95%;
-    }
-}  */
 
 .project-link{
     text-decoration: none;
     cursor: pointer;
     width: 100%; 
     color: #053269;  
-    }
-.project-link:hover{
-    color: blue;
 }
-    @media (min-width: 768px) {
-        .project-link {
-            width: 45%;
-        }
+@media (min-width: 768px) {
+    .project-link {
+        width: 45%;
+    }
+} 
+@media (min-width: 1024px) {
+    .project-link {
+        width: 30%;
     } 
-    @media (min-width: 1024px) {
-        .project-link {
-            width: 30%;
-        } 
-    }   
+}   

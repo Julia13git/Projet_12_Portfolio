@@ -6,8 +6,8 @@ main{
     flex-direction: column;
     gap: 20px;
     padding-inline: 20px;
-    /* background-color: #E9F1FA; */
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
 }
 @media (min-width: 768px) {
     main {

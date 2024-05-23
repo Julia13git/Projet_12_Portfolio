@@ -1,134 +1,97 @@
 .one-collapse {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    max-width: 1023px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1023px;
+  padding-block: 30px;
+}
+@media (min-width: 699px) {
+  .one-collapse {
+    width: 70%;
   }
-  @media (min-width: 699px) {
-    .one-collapse {
-      width: 70%;
-    }
+}
+@media (min-width: 1024px) {
+  .one-collapse {
+    width: 530px;
   }
-  @media (min-width: 1024px) {
-    .one-collapse {
-      width: 530px;
-    }
-  }
-  
-  .collapse-btn {
-    width: 100%;
-    background-color: #053269;
-    border: none;
-    height: 40px;
-    color: #FFF;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Vujahday Script;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 19px;
-  }
-  @media (min-width: 768px) {
-    .collapse-btn {
-      max-width: 1023px;
-      height: 50px;
-      font-size: 24px;
-      line-height: 34px;
-    }
-  }
-  @media (min-width: 1024px) {
-    .collapse-btn {
-      font-size: 30px;
-    }
-  }
-  .collapse-btn img{
-    height: 24px;
-  }
-  @media (min-width: 768px) {
-    .collapse-btn img {
-      height: 30px;
-    }
-  }
-  
-  .collapse-content {
-    max-width: 1015px;
-    display: flex;
-    padding: 15px;
-    background: rgba(246, 246, 246, 0.4509803922);
-    border-radius: 0px 0px 10px 10px;
-    opacity: 0;
-    display: none;
-  }
+}
 
+.collapse-btn {
+  width: 100%;   
+  border: none;
+  height: 40px;
+  color: #053269;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Vujahday Script;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  background: #76ABDF;
+  /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+  /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
+}
+@media (min-width: 768px) {
+  .collapse-btn {
+    max-width: 1023px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+.collapse-content{
+  overflow: hidden;
+  display: none;
+  transition: display 0.5s ease;
+}
+.collapse-content.open {
+  max-width: 1015px;
+  display: flex;
+  padding: 15px;
+  background: rgba(246, 246, 246, 0.4509803922);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.collapse-content ul {
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
   .collapse-content ul {
-    padding-left: 15px;
+    padding-left: 25px;
   }
-  @media (min-width: 768px) {
-    .collapse-content ul {
-      padding-left: 25px;
-    }
-  }
+}
+.collapse-content p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+@media (min-width: 1024px) {
   .collapse-content p {
     font-family: Roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
   }
-  @media (min-width: 1024px) {
-    .collapse-content p {
-      font-family: Roboto, sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 26px;
-    }
-  }
-.check-icon{
-    padding-right: 10px;
-    font-weight: bold;
 }
-  .show-collapse-content {
-    display: flex;
-    animation: show 0.5s ease-in forwards;
-  }
-  
-  .hide-collapse-content {
-    animation: hide 0.5s ease-out forwards;
-  }
-  
-  .rotate-down {
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transform: rotate(-180deg);
-  }
-  
-  .rotate-up {
-    transition-duration: 0.3s;
-    transition-property: transform;
-    transform: rotate(0deg);
-  }
-  
-  @keyframes show {
-    from {
-      display: none;
-      opacity: 0;
-    }
-    to {
-      display: block;
-      opacity: 1;
-    }
-  }
-  @keyframes hide {
-    from {
-      display: block;
-      opacity: 1;
-    }
-    to {
-      display: none;
-      opacity: 0;
-    }
-  }
-  
+.check-icon{
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.arrow.rotate {
+  transform: rotate(180deg);
+}
+

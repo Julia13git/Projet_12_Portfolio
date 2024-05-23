@@ -10,18 +10,17 @@ function ProjectPage({ project }) {
     <>
       <div key={project.id} className="full-project">
         <h1 className="full-project-title">{project.name}</h1>
-        {/* <img
-          src={project.cover}
-          alt={project.name}
-          className="full-project-image"
-        /> */}
         <Carousel id={project.id} />
         <div className="icon-description">
           <FontAwesomeIcon icon={faCircleInfo} className="icon-info" />
           <p className="full-project-description">{project.description}</p>
         </div>
         <div className="github-logo-link">
-          <img src="/images/github-logo.png" alt="github-logo" />
+          <img
+            src="/images/icons8-github-64.png"
+            alt="github-logo"
+            className="github-logo"
+          />
           <Link to={project.github_link} className="github-link">
             {project.github_link}
           </Link>

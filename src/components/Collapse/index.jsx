@@ -1,45 +1,25 @@
 import { useState } from "react";
 import "./collapse.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faToggleOn } from "@fortawesome/free-solid-svg-icons";
-
-// import { projectList } from "../../datas/projectList";
+import { faToggleOn, faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 
 function Collapse({ title, skills }) {
-  const [collapseOpen, setCollapseOpen] = useState(true);
+  const [collapseOpen, setCollapseOpen] = useState(false);
 
-  function handleClick(event) {
+  function handleClick() {
     setCollapseOpen(!collapseOpen);
-    const contentid = event.target.getAttribute("contentid");
-    if (collapseOpen) {
-      event.target.classList.remove("rotate-up");
-      event.target.classList.add("rotate-down");
-      document
-        .getElementById(contentid)
-        .classList.remove("hide-collapse-content");
-      document.getElementById(contentid).classList.add("show-collapse-content");
-    } else {
-      event.target.classList.remove("rotate-down");
-      event.target.classList.add("rotate-up");
-      document
-        .getElementById(contentid)
-        .classList.remove("show-collapse-content");
-      document.getElementById(contentid).classList.add("hide-collapse-content");
-    }
   }
 
   return (
     <div className="one-collapse" key={title}>
-      <button type="button" className="collapse-btn">
+      <button type="button" className="collapse-btn" onClick={handleClick}>
         {title}
-        <img
-          contentid={title}
-          src="/images/arrow-collapse-up.svg"
-          alt=""
-          onClick={handleClick}
+        <FontAwesomeIcon
+          className={`arrow ${collapseOpen ? "rotate" : ""}`}
+          icon={faArrowsRotate}
         />
       </button>
-      <div className="collapse-content hide-collapse-content" id={title}>
+      <div className={`collapse-content ${collapseOpen ? "open" : ""}`}>
         <ul>
           {skills.map((s) => {
             return (
