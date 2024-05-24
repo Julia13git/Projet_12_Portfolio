@@ -19,7 +19,7 @@ function About() {
               src={privateData.image}
               alt={privateData.firstName + privateData.lastName}
               className="about-image"
-            ></img>
+            />
             <div className="about-text">
               <p>
                 Je m'appelle Yuliia HOTS.
@@ -37,7 +37,7 @@ function About() {
                 l'école, j'ai fait initialement mon choix vers l'anglais en
                 début de carrière avec un master d'anglais (Université de
                 Kharkiv). Je suis arrivée en France en Mars 2022 et j'ai
-                souhaité me réorienter vers un nouvelle activité. J'ai choisi
+                souhaité me réorienter vers une nouvelle activité. J'ai choisi
                 l'informatique et j'ai eu la chance de pouvoir suivre une
                 formation de 9 mois avec OpenclassRooms me permettant
                 d'apprendre à developper.
