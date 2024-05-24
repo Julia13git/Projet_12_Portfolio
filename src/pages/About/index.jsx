@@ -41,12 +41,6 @@ function About() {
                 l'informatique et j'ai eu la chance de pouvoir suivre une
                 formation de 9 mois avec OpenclassRooms me permettant
                 d'apprendre à developper.
-                {/* des applications Web et React. Durant cette formation, j'ai
-                étudié <br /> différents sujets : le HTML, le CSS, le
-                JavaScript, le React & Redux,
-                <br /> les API REST JSON, les techniques d'optimisation de site
-                <br />
-                et du referencement SEO. */}
               </p>
             </div>
           </div>

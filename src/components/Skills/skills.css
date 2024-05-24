@@ -22,7 +22,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     background: rgba(246, 246, 246, 0.4509803922);
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
@@ -37,17 +36,14 @@
         padding: 30px;
         flex-direction: row;
     }}
-    @media (min-width: 1024px) {
-        .skills-content{
-            width: 60%;
-        }}
+@media (min-width: 1024px) {
+    .skills-content{
+        width: 60%;
+    }}
 .logo-skill{
     display: flex;
     align-items: center;
     padding: 3px;
     gap: 5px;
     flex-direction: column;
-    /* border: #053269 solid 1px; */
-    /* box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15); */
-
 }

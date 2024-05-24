@@ -17,10 +17,6 @@ function Home() {
         <p id="head3" className="header">
           développeuse front-end.
         </p>
-
-        {/* Welcome to BA designs */}
-
-        {/* <button>Continue</button> */}
         <div className="light x1"></div>
         <div className="light x2"></div>
         <div className="light x3"></div>

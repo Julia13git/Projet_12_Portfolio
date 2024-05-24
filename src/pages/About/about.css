@@ -6,10 +6,7 @@ main{
     flex-direction: column;
     gap: 20px;
     padding-inline: 20px;
-    /* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-    /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
-    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
 }
 @media (min-width: 768px) {
     main {
@@ -87,6 +84,7 @@ main{
         border-radius: 213px;
     }
 }
+
 .about-text{
     display: flex;
     width: 80%;
@@ -98,11 +96,14 @@ main{
 @media (min-width: 768px) {
     .about-text {
         width: 60%;
-    }}
+}
+}
 @media (min-width: 768px) {
     .about-text {
         width: 50%;
-        }}
+}
+}
+
 p {
     font-family: Handlee, sans-serif;
     font-size: 14px;
@@ -118,6 +119,7 @@ p {
         font-size: 20px;
     }
 }
+
 .courses-link{
     color: #053269;
     font-weight: bold;

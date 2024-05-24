@@ -8,16 +8,15 @@ export const projectList = [
         "github_page_link": "https://julia13git.github.io/Projet3/",
         "pictures": [
             "/images/booki/booki.webp",  
-            "/images/booki/booki-1.jpg",
-            "/images/booki/booki-2.jpg",
-            "/images/booki/booki-3.jpg"
+            "/images/booki/booki-1.webp",
+            "/images/booki/booki-2.webp",
+            "/images/booki/booki-3.webp"
         ],
         "skills": [
             "Intégrer du contenu conformément à une maquette avec HTML et CSS",
             "Implémenter une interface responsive avec HTML et CSS",
             "Installer un environnement de développement front-end"
         ]
-
     },
     {
         "id": "1",
@@ -36,7 +35,6 @@ export const projectList = [
             "Intégrer une maquette en mobile-first",
             "Mettre en œuvre des animations CSS"            
         ]
-
     },
     {
         "id": "2",
@@ -54,7 +52,6 @@ export const projectList = [
         "skills": [
             "Programmer en utilisant les fondamentaux de JavaScript"
         ]
-
     },
     {
         "id": "3",
@@ -75,7 +72,6 @@ export const projectList = [
             "Manipuler les éléments du DOM avec JavaScript",
             "Récupérer les données utilisateurs dans le JavaScript via des formulaires"
         ]
-
     },
     {
         "id": "5",
@@ -97,7 +93,6 @@ export const projectList = [
             "Développer des éléments de l'interface d'un site web grâce à des composants React",
             "Mettre en œuvre des animations CSS"
         ]
-
     },
     {
         "id": "6",
@@ -116,7 +111,6 @@ export const projectList = [
         "skills": [
             "Optimiser la performance d'un site web"
         ]
-
     },
     {
         "id": "7",
@@ -135,7 +129,6 @@ export const projectList = [
             "Débugger un site web grâce aux Chrome DevTools",
             "Rédiger un cahier de recette pour tester un site"
         ]
-
     },
     {
         "id": "8",
@@ -155,6 +148,5 @@ export const projectList = [
             "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front",
             "Afficher les données du back end sur l'interface via des appels API"
         ]
-
     }
 ]

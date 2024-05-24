@@ -16,6 +16,7 @@ main{
         padding-inline: 100px;
     }
 }
+
 .projects-list{
     display: flex;
     flex-direction: column;
@@ -41,21 +42,22 @@ main{
     .projects-title {
         font-size: 50px;
     }
-} 
+}
+
 .project-link{
     all: unset;
     text-decoration: none;
     cursor: pointer;
     width: 100%; 
     color: #053269;  
-    }
-    @media (min-width: 768px) {
-        .project-link {
-            width: 45%;
-        }
     } 
-    @media (min-width: 1024px) {
-        .project-link {
-            width: 30%;
-        } 
-    }  
+@media (min-width: 768px) {
+    .project-link {
+        width: 45%;
+    }
+} 
+@media (min-width: 1024px) {
+    .project-link {
+        width: 30%;
+    } 
+}  

@@ -7,7 +7,6 @@ header{
     max-width: 1440px;
     box-sizing: border-box;
 }
-
 @media (min-width: 768px) {
     header {
         padding: 25px 50px;

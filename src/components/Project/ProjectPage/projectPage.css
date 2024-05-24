@@ -40,17 +40,20 @@
     .full-project-image {
         height: 380px;
     } 
-}    
+} 
+
 .icon-description{
     display: flex;
     align-items: center;
     padding-inline: 10px;
     gap: 10px;
 }
+
 .icon-info{
     font-size: 20px;
     color: #053269;
 }
+
 .full-project-description{
     color: #053269;
     font-family: Roboto,sans-serif;
@@ -75,6 +78,7 @@
     gap: 15px;
     padding-inline: 15px;
 }
+
 .github-logo{
     height: 30px;
 }
@@ -83,6 +87,7 @@
         height: 40px;
     }
 }
+
 .github-link{
     color: #053269;
     font-family: Roboto,sans-serif;

@@ -29,7 +29,6 @@
     font-size: 25px;
     font-weight: bold;
 }
-
 .project-description{
     color: #053269;
     font-family: Roboto,sans-serif;
@@ -39,7 +38,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;  
 }
-
 .project-link{
     text-decoration: none;
     cursor: pointer;

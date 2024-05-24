@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <img src="/images/icons8-github-64.png" alt="Logo Github" />
+        <img src="/images/icons/github.webp" alt="Logo Github" />
         <Link to="https://github.com/Julia13git" className="footer-link">
           https://github.com/Julia13git
         </Link>
