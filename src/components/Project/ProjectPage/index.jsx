@@ -25,7 +25,7 @@ function ProjectPage({ project }) {
             {project.github_link}
           </Link>
         </div>
-        <Collapse title="Skills" skills={project.skills} />
+        <Collapse title="Compétences développées" skills={project.skills} />
       </div>
     </>
   );
