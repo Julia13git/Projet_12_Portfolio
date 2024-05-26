@@ -30,7 +30,11 @@ function Carousel({ id }) {
 
           return (
             <section className="carousel" key={project.id}>
-              <img src={project.pictures[currentImage]} alt={project.name} />
+              <img
+                src={project.pictures[currentImage]}
+                alt={project.name}
+                loading="lazy"
+              />
               <div className="slider-arrows">
                 <FontAwesomeIcon
                   icon={faChevronLeft}
