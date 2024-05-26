@@ -2,7 +2,7 @@
   "name": "mon-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Julia13git/Projet_12_Portfolio",
+  "homepage": "https://julia13git.github.io/Projet_12_Portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
