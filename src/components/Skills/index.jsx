@@ -8,7 +8,7 @@ function Skills({ skills }) {
         {skills.map((skills, index) => {
           return (
             <div key={index} className="logo-skill">
-              <img src={skills.logo} alt={skills.name} className="logo" />
+              <img src={skills.logo} alt={skills.name} className="icon-skill" />
               <p>{skills.name}</p>
             </div>
           );
