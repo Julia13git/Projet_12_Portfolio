@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Julia13git/Projet_12_Portfolio/static/css/main.b4db3f91.css",
-    "main.js": "/Julia13git/Projet_12_Portfolio/static/js/main.8151fcff.js",
-    "index.html": "/Julia13git/Projet_12_Portfolio/index.html",
-    "main.b4db3f91.css.map": "/Julia13git/Projet_12_Portfolio/static/css/main.b4db3f91.css.map",
-    "main.8151fcff.js.map": "/Julia13git/Projet_12_Portfolio/static/js/main.8151fcff.js.map"
+    "main.css": "/Projet_12_Portfolio/static/css/main.b4db3f91.css",
+    "main.js": "/Projet_12_Portfolio/static/js/main.8151fcff.js",
+    "index.html": "/Projet_12_Portfolio/index.html",
+    "main.b4db3f91.css.map": "/Projet_12_Portfolio/static/css/main.b4db3f91.css.map",
+    "main.8151fcff.js.map": "/Projet_12_Portfolio/static/js/main.8151fcff.js.map"
   },
   "entrypoints": [
     "static/css/main.b4db3f91.css",
