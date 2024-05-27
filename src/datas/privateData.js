@@ -1,7 +1,7 @@
 export const privateData = {
     "firstName": "Yuliia",
     "lastName": "HOTS",
-    "image": "/images/myphoto.webp",
+    "image": "./images/myphoto.webp",
     "telephone": "(+33) 06 42 24 27 96",
     "email": "goculiya@gmail.com",
     "skills": [
