@@ -17,6 +17,11 @@ function ProjectPage({ project }) {
         </div>
         <div className="github-logo-link">
           <img
+            src={`${"/Projet_12_Portfolio"}/images/github.webp`}
+            alt="github-logo"
+            className="github-logo"
+          />
+          <img
             src="../images/icons/github.webp"
             alt="github-logo"
             className="github-logo"
