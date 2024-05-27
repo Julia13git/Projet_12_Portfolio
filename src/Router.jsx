@@ -19,18 +19,3 @@ function Router() {
   );
 }
 export default Router;
-
-// function Router() {
-//   return (
-//     <>
-//       <Switch>
-//         <Route exact path="/" element={<Home />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/projects" element={<Projects />} />
-//         <Route path="/project/:id" element={<ProjectPage />} />
-//         <Route path="*" element={<PageError />} />
-//       </Switch>
-//     </>
-//   );
-// }
-// export default Router;

@@ -17,7 +17,7 @@ function ProjectPage({ project }) {
         </div>
         <div className="github-logo-link">
           <img
-            src="./images/icons/github.webp"
+            src="../images/icons/github.webp"
             alt="github-logo"
             className="github-logo"
           />
