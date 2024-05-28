@@ -1,15 +1,19 @@
 import "./contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-function Contact({ telephone, email }) {
+function Contact({ linkedin, email }) {
   return (
     <div className="contacts">
       <h2 className="contacts-title">Contacts</h2>
       <div className="contacts-content">
         <div className="contacts-info">
-          <FontAwesomeIcon icon={faPhone} className="contacts-icon" />
-          <p>{telephone}</p>
+          <img
+            src="./images/icons/linkedin.webp"
+            alt="Linkedin"
+            className="linkedin-logo"
+          />
+          <p>{linkedin}</p>
         </div>
         <div className="contacts-info">
           <FontAwesomeIcon icon={faEnvelope} className="contacts-icon" />

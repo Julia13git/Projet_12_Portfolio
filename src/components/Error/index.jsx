@@ -4,7 +4,7 @@ import "./error.css";
 
 function Error() {
   return (
-    <section className="error-block">
+    <div className="error-block">
       <span className="error-span">404</span>
 
       <div className="oups">
@@ -15,7 +15,7 @@ function Error() {
       <Link to="/" className="error-link">
         Retourner sur la page d’accueil
       </Link>
-    </section>
+    </div>
   );
 }
 export default Error;
