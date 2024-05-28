@@ -36,3 +36,14 @@ footer .footer-content {
     font-size: 24px;
   }
 }
+
+.github-logo{
+  height: 30px;
+  width: 30px;
+}
+@media (min-width: 699px) {
+  .github-logo{
+      height: 40px;
+      width: 40px;
+  }
+}
