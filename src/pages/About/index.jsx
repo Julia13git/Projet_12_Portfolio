@@ -45,7 +45,7 @@ function About() {
             </div>
           </div>
           <Skills skills={privateData.skills} />
-          <Contact telephone={privateData.linkedin} email={privateData.email} />
+          <Contact linkedin={privateData.linkedin} email={privateData.email} />
         </div>
       </main>
       <Footer />

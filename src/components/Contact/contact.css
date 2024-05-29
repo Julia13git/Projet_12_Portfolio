@@ -39,13 +39,24 @@
 @media (min-width: 768px) {
     .contacts-content{
         padding: 30px;
-        flex-direction: row;
+        width: 70%;
+}
+}
+@media (min-width: 1024px) {
+    .contacts-content{
+        width: 75%;
 }
 }
     
 .contacts-info{
     display: flex;
-    gap: 25px; 
+    gap: 15px; 
+    align-items: center;
+}
+@media (min-width: 1024px) {
+    .contacts-info{
+        flex-direction: column;
+}
 }
 
 .contacts-icon{

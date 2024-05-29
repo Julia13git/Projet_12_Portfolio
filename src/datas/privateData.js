@@ -2,7 +2,7 @@ export const privateData = {
     "firstName": "Yuliia",
     "lastName": "HOTS",
     "image": "./images/myphoto.webp",
-    "linkedin": "",
+    "linkedin": "www.linkedin.com/in/yuliia-hots",
     "email": "goculiya@gmail.com",
     "skills": [
         {   logo: "./images/icons/html-5.webp" , name: "HTML"},
