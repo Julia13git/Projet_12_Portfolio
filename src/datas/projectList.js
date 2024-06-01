@@ -22,7 +22,7 @@ export const projectList = [
         "id": "1",
         "name": "OhMyFood",
         "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
-        "cover": "./images/ohMyFood/ohmyfood.webp",
+        "cover": "./images/ohMyFood/ohmyfood-16kb.webp",
         "github_link": "https://github.com/Julia13git/Projet4",
         "github_page_link": "https://julia13git.github.io/Projet4/",
         "pictures": [
