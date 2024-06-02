@@ -111,13 +111,13 @@
 
 #head2{
   animation: finalFade 1 2s ease-in;
-  animation-delay: 2s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
 #head3{
   animation: finalFade 1 3s ease-in;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
