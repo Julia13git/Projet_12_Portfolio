@@ -24,7 +24,7 @@ export const projectList = [
         "cover": "./images/ohMyFood/ohmyfood-16kb.webp",
         "github_link": "https://github.com/Julia13git/Projet4",
         "pictures": [
-            "./images/ohMyFood/ohmyfood-1.webp",
+            "./images/ohMyFood/ohmyfood-650.webp",
             "./images/ohMyFood/ohmyfood.webp", 
             "./images/ohMyFood/ohmyfood-2.webp"            
         ],
