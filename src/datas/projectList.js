@@ -5,7 +5,6 @@ export const projectList = [
         "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
         "cover": "./images/booki/booki.webp",
         "github_link": "https://github.com/Julia13git/Projet3",
-        "github_page_link": "https://julia13git.github.io/Projet3/",
         "pictures": [
             "./images/booki/booki.webp",  
             "./images/booki/booki-1.webp",
@@ -24,7 +23,6 @@ export const projectList = [
         "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
         "cover": "./images/ohMyFood/ohmyfood-16kb.webp",
         "github_link": "https://github.com/Julia13git/Projet4",
-        "github_page_link": "https://julia13git.github.io/Projet4/",
         "pictures": [
             "./images/ohMyFood/ohmyfood-1.webp",
             "./images/ohMyFood/ohmyfood.webp", 
@@ -42,7 +40,6 @@ export const projectList = [
         "description": "Premiers pas sur le langage JavaScript",
         "cover": "./images/printIt/printit.webp",
         "github_link": "https://github.com/Julia13git/Project_5",
-        "github_page_link": "https://julia13git.github.io/Project_5/",
         "pictures": [
             "./images/printIt/printit-1.webp",
             "./images/printIt/printit-2.webp",
@@ -59,7 +56,6 @@ export const projectList = [
         "description": "Créez une page web dynamique avec JavaScript",
         "cover": "./images/sophieBluel/sophieBluel.webp",
         "github_link": "https://github.com/Julia13git/Projet6",
-        "github_page_link": "https://julia13git.github.io/Projet6/",
         "pictures": [
             "./images/sophieBluel/sophieBluel-1.webp",
             "./images/sophieBluel/sophieBluel-2.webp",
@@ -79,7 +75,6 @@ export const projectList = [
         "description": "Créez une application web de location immobilière avec React",
         "cover": "./images/kasa/kasa.webp",
         "github_link": "https://github.com/Julia13git/ProjetKasa",
-        "github_page_link": "",
         "pictures":[
             "./images/kasa/kasa-1.webp",
             "./images/kasa/kasa-2.webp",
@@ -100,7 +95,6 @@ export const projectList = [
         "description": "Optimisez le référencement d'un site de photographe",
         "cover": "./images/nina/ninaCarduci.webp",
         "github_link": "https://github.com/Julia13git/Projet_9.git",
-        "github_page_link": "https://julia13git.github.io/Projet_9/",
         "pictures":[
             "./images/nina/nina-1.webp",
             "./images/nina/nina-2.webp",
@@ -118,7 +112,6 @@ export const projectList = [
         "description": "Débuggez le site d'une agence d'événementiel",
         "cover": "./images/724events/724events.webp",
         "github_link": "https://github.com/Julia13git/Projet-10",
-        "github_page_link": "",
         "pictures":[
             "./images/724events/events-1.webp",
             "./images/724events/events-2.webp",
@@ -136,7 +129,6 @@ export const projectList = [
         "description": "Implémentez le front-end d'une application bancaire avec React",
         "cover": "./images/argentBank/argentBank.webp",
         "github_link": "https://github.com/Julia13git/ArgentBank-website",
-        "github_page_link": "",
         "pictures":[
             "./images/argentBank/bank-1.webp",
             "./images/argentBank/bank-2.webp",
